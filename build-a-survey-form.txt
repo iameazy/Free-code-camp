@@ -1,0 +1,100 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+      <h1 id="title">REGISTRATION FORM</h1>
+      <p id="description">Register Here</p>
+      <form id="survey-form">
+        INPUT NAME
+        <label id="name-label" ><input id="name-label"  type="text" required><label><BR>
+       EMAIL <label id="email-label"><input id="email-label"  type="email" required>email</label><br>
+        NUMBER<label id="number-label"><input  id="number-label" type="number" min="12" max="30">number</label>
+        <input id="name" placeholder="name"required>
+        <input id="email" placeholder="email"type="email" required>
+        <input id="number" placeholder="number" type="number" min="9" max="20">
+        <select id="dropdown">
+           <option>male</option> 
+           <option>female</option>
+          </select>FOR PERSONAL<input type="checkbox" value="1">
+         FOR BUSINESS <input type="checkbox" value="2">
+          <input id="business-account" type="radio" value="1" name="account-type" class="inline" /> 
+          <input id="business-account" type="radio" name="account-type" value="2" class="inline" /> 
+         <label for="bio">Provide a bio:
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="say something about you..."></textarea>
+        </label>
+      </fieldset>
+      <input type="submit" id="submit" value="submit" />
+      </form>
+      <label id="survey-form"></label>
+      </body>
+  </html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #1b1b32;
+  color: #f5f6f7;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+
+h1{
+  margin: 1em auto;
+  text-align: center;
+}
+
+form {
+width: 60vw;
+max-width: 500px;
+min-width: 300px;
+margin: 0 auto;
+padding-bottom: 2em;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input, textarea {
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 300px;
+}
+
+input[type="file"] {
+  padding: 1px 2px;
+}
+
+** end of undefined **
+
